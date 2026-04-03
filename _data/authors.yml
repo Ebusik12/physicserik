@@ -21,7 +21,7 @@ author1:
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    email:           barbora@physics.muni.cz
+    email:           ebus@isibrno.cz
     github:          barboramiklosova
     linkedin:        https://www.linkedin.com/in/barbora-miklo%C5%A1ov%C3%A1-22592a254
     # rss:             https://<url>/feed.xml
@@ -34,7 +34,7 @@ author1:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    instagram:       barboreamm
+    instagram:       erik_bus_ #barboreamm
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
