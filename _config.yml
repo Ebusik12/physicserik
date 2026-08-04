@@ -18,16 +18,16 @@
 lang:                  en
 
 # The title of your site. Used in the sidebar and the browser tab.
-title:                 Barbora Miklošová
+title:                 Erik Búš
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Master’s student in astrophysics, exploring galaxies, data, and the questions
-  hiding in the night sky.
+  Experimental physicist in levitational optomechanics at the Department of
+  Theoretical Physics and Astrophysics, Institute of Scientific Instruments of the CAS.
 
 # A shorter description for the sidebar.
-tagline:               "Astrophysics Master's student at the Department of Theoretical Physics and Astrophysics<br>Masaryk University · High Energy Astrophysics group"
+tagline:               "Experimental physicist in levitational optomechanics at the Department of Theoretical Physics and Astrophysics, Institute of Scientific Instruments of the CAS"
 
 # A list of keywords for your blog
 keywords:              []
@@ -35,14 +35,13 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-# Set to empty to hide the big "Hy" logo.
 logo:
 
-# This should be the same author as first entry in `_data/authors.yml`.
+# This should be be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Barbora Miklošová
-  email:               your.email@example.com
+  name:                Erik Búš
+  email:               ebus@isibrno.cz
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -121,7 +120,7 @@ theme_color:           rgb(25,55,71)
 # To change font-weight, see _sass/variables.scss
 # font:                  Noto Sans, Helvetica, Arial, sans-serif
 
-# The font used for headings. Expects a string that is a valid CSS font-family value.
+# The font used for headings. Expects a string that is a valid CSS font-family value. 
 # To change font-weight, see _sass/variables.scss
 # font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
@@ -172,11 +171,6 @@ defaults:
     values:
       seo:
         type:          WebPage
-  - scope:
-      type:            featured_tags
-    values:
-      seo:
-        type:          WebPage
 
 kramdown:
   math_engine:         mathjax
@@ -214,7 +208,11 @@ hydejack:
   # Run Jekyll with the `JEKYLL_ENV` environment variable set to `production` to enable.
   no_search:           false
 
-  # Set to `true` if you do not want parts of the css inlined in <head/>
+  # Set to true if you want to disable the built-in cookies banner.
+  # When enabled, no user-related data will be stored until the visitor grants consent.
+  cookies_banner:      false
+
+  # Set to `true` if you want to disable the built-in page styling.
   # This will increase site build speed dramatically!
   no_inline_css:       false
 
@@ -253,7 +251,7 @@ hydejack:
   use_lsi:             true
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
-  # When enabled, no user-related data will be stored until the user gives consent.
+  # When enabled, no user-related data will be stored until the visitor gives consent.
   cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
@@ -353,8 +351,8 @@ plugins:
 # webmaster_verifications:
 #   google:              <verification-id>
 #   bing:                <verification-id>
-#   alexa:               <verification-id>
-#   yandex:              <verification-id>
+#   alexa:                <verification-id>
+#   yandex:                <verification-id>
 
 # Used for twitter cards
 # twitter:
@@ -364,7 +362,6 @@ plugins:
 # facebook:
 #   app_id:              <id>
 #   publisher:           <id>
-#   admins:              <id>
 
 # Used on index and about sites
 # social:
@@ -375,7 +372,7 @@ plugins:
 
 
 # Plugin Configs
-# ---------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------
 optional_front_matter:
   remove_originals:    true
 
